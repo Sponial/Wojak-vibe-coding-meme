@@ -1,24 +1,32 @@
-#div {height:200px
-    width:200px ; 
+div {
     background-color:black;
-
+    width:50%;
+    margin-left:25%;
 }
-
-#header{margin-left:530px;
+*{
+    background-color: black;
+}
+*{
+    text-align: center;
+}
+#header{
     color:whitesmoke; 
     font-family: "Libre Baskerville", sans;
     text-transform: uppercase;
 } /*leaving it here because it's 10:00pm and I'm tired, fuck it's hard to remember stuff for CSS sometimes, I can't remember how to add a font into CSS fully, especially on a separate file
 I also don't know how to align the text in the centre, perhaps need to do in HTML not CSS?*/
 
-#text{color:white;
-    margin-left: 360px; padding-bottom:50px; font-size: larger;
+#text{
+    color:white;
+    padding-bottom:50px; 
+    font-size: larger;
 }
 
-#image{height:450px; 
-    width: ; 
-    border:5px solid gold;
-    margin-left: 470px; 
+#image{; 
+    width: 100%;
+    border:5px solid white; 
     margin-top:10px;
     padding-bottom: 20px;
 }
+
+/* note from future Orson: DON'T SKIP INSTRUCTIONS after coming back to this, I made it way harder on myself by not fully reading the instructions given to me in the index.html -- it literally told you how to achive all the centring there. width:50%, margin-left 25%.*/
